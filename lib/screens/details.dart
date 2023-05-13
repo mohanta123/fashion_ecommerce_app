@@ -1,6 +1,5 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-
 import '../model/base_model.dart';
 import '../utils/constants.dart';
 import '../widget/add_to_cart.dart';
