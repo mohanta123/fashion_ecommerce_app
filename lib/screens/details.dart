@@ -29,7 +29,6 @@ class _DetailsState extends State<Details> {
     var textTheme = Theme.of(context).textTheme;
 
     BaseModel current = widget.data;
-
     return Scaffold(
       backgroundColor: Colors.white,
       extendBodyBehindAppBar: true,
