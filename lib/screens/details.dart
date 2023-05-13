@@ -150,7 +150,6 @@ class _DetailsState extends State<Details> {
             FadeInUp(
               delay: const Duration(milliseconds: 500),
               child: SizedBox(
-                // color: Colors.red,
                 width: size.width * 0.9,
                 height: size.height * 0.08,
                 child: ListView.builder(
