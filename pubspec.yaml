@@ -22,6 +22,7 @@ dependencies:
   cc_avenue: ^1.0.3
  # cc_avenue_flutter: ^1.0.0
   http:
+  webview_flutter: ^2.0.10
   
 
 dev_dependencies:

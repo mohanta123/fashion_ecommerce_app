@@ -1,5 +1,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:fashion_ecommerce_app/screens/payment_page.dart';
+import 'package:fashion_ecommerce_app/screens/webViewPage.dart';
+import 'package:fashion_ecommerce_app/screens/web_view_page.dart';
 import 'package:flutter/material.dart';
 import 'package:line_icons/line_icons.dart';
 
@@ -390,10 +392,11 @@ class _CartState extends State<Cart> {
                           child: ReuseableButton(
                               text: "Checkout",
                               onTap: () {
-                                Navigator.pushReplacement(
-                                    context,
-                                    MaterialPageRoute(
-                                        builder: (context) => const PaymentPage()));
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(builder: (context) => WebViewExample()),
+                                );
+
                               }),
                         ),
                       )
