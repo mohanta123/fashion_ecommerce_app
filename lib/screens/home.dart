@@ -141,7 +141,7 @@ class _HomeState extends State<Home> {
                 child: Container(
                   margin: const EdgeInsets.only(top: 10),
                   width: size.width,
-                  height: size.height * 0.45,
+                  height: size.height * 0.46,
                   child: PageView.builder(
                     controller: _pageController,
                     itemCount: mainList.length,
