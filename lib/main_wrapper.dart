@@ -20,7 +20,7 @@ class _MainWrapperState extends State<MainWrapper> {
   bool isSearchActive = false;
 
   List<Widget> screens = [
-    const Home(),
+     Home(),
     const Search(),
   ];
 
@@ -98,7 +98,7 @@ class _MainWrapperState extends State<MainWrapper> {
           ),
         ],
       ),
-      body: isSearchActive ? const Search() : const Home(),
+      body: isSearchActive ? const Search() :  Home(),
       bottomNavigationBar: BottomBarBubble(
         color: primaryColor,
         selectedIndex: _index,
