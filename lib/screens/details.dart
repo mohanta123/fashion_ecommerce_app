@@ -76,7 +76,7 @@ class _DetailsState extends State<Details> {
               ),
             ),
 
-            /// info
+            /// info details
             FadeInUp(
               delay: const Duration(milliseconds: 300),
               child: Padding(
